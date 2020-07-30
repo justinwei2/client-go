@@ -366,7 +366,7 @@ type WorkloadEntryList struct {
 // please upgrade the proto package
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
 
-// `WorkloadGroup` enables specifying the properties of a single workload for bootstrap.
+// WorkloadGroup enables specifying the properties of a single non-Kubernetes workload for bootstrap.
 //
 // <!-- crd generation tags
 // +cue-gen:WorkloadGroup:groupName:networking.istio.io
